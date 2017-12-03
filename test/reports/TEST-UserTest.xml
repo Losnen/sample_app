@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserTest" skipped="0" failures="1" errors="0" tests="3" assertions="3" time="0.019236000021919608">
+  <testcase name="test_name_should_be_present" classname="UserTest" assertions="1" time="0.017786000040359795">
+  </testcase>
+  <testcase name="test_should_be_valid" classname="UserTest" assertions="1" time="0.0007269999478012323">
+  </testcase>
+  <testcase name="test_email_should_be_present" classname="UserTest" assertions="1" time="0.0007230000337585807">
+    <failure type="test_email_should_be_present" message="Expected true to be nil or false">
+Failure:
+test_email_should_be_present(UserTest) [/Users/samuelramosbarroso/Desktop/TFG/workspace/sample_app/test/models/user_test.rb:21]:
+Expected true to be nil or false
+    </failure>
+  </testcase>
+</testsuite>
