@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-require 'test_helper'
+require "test_helper"
 
 class MicropostTest < ActiveSupport::TestCase
-
   def setup
     @user = users(:michael)
     @micropost = @user.microposts.build(content: "Lorem ipsum")
